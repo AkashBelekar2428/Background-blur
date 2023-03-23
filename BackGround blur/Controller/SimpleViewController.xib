@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SimpleViewController" customModule="BackGround_blur" customModuleProvider="target">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cap" translatesAutoresizingMaskIntoConstraints="NO" id="1Ha-rR-cdz">
+                    <rect key="frame" x="76.666666666666686" y="74" width="240" height="240"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="240" id="IPo-T0-stY"/>
+                        <constraint firstAttribute="width" constant="240" id="Iv0-jD-vSu"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Si-n1-TN4">
+                    <rect key="frame" x="20" y="334" width="353" height="122"/>
+                    <string key="text">Head cap is a high quality non woven fabric cap. It has an elastic cuff that allows a proper seal. It is designed to prevent the infection from spreading in health working staff. It thereby helps in providing optimal care of patients with ease and comfort.</string>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zZC-e6-77f">
+                    <rect key="frame" x="20" y="476" width="353" height="122"/>
+                    <string key="text">Head cap is a high quality non woven fabric cap. It has an elastic cuff that allows a proper seal. It is designed to prevent the infection from spreading in health working staff. It thereby helps in providing optimal care of patients with ease and comfort.</string>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nd0-el-Iro">
+                    <rect key="frame" x="20" y="618" width="353" height="122"/>
+                    <string key="text">Head cap is a high quality non woven fabric cap. It has an elastic cuff that allows a proper seal. It is designed to prevent the infection from spreading in health working staff. It thereby helps in providing optimal care of patients with ease and comfort.</string>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B8g-oe-we9">
+                    <rect key="frame" x="5" y="773" width="383" height="35"/>
+                    <state key="normal" title="Button"/>
+                    <buttonConfiguration key="configuration" style="plain" title="Show Details">
+                        <color key="baseForegroundColor" systemColor="tintColor"/>
+                    </buttonConfiguration>
+                    <connections>
+                        <action selector="nextBtn" destination="-1" eventType="touchUpInside" id="P5v-Gu-2fY"/>
+                    </connections>
+                </button>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="3Si-n1-TN4" secondAttribute="trailing" constant="20" id="0O8-36-TqK"/>
+                <constraint firstItem="zZC-e6-77f" firstAttribute="top" secondItem="3Si-n1-TN4" secondAttribute="bottom" constant="20" id="3NQ-LZ-aF9"/>
+                <constraint firstItem="3Si-n1-TN4" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="4aW-L1-zh9"/>
+                <constraint firstItem="1Ha-rR-cdz" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="60m-EF-fff"/>
+                <constraint firstItem="Nd0-el-Iro" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="PeK-Mi-81k"/>
+                <constraint firstItem="1Ha-rR-cdz" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="15" id="Zgv-cp-OBG"/>
+                <constraint firstAttribute="trailing" secondItem="zZC-e6-77f" secondAttribute="trailing" constant="20" id="fKI-7a-bcf"/>
+                <constraint firstItem="B8g-oe-we9" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="5" id="fpf-4C-K5y"/>
+                <constraint firstItem="Nd0-el-Iro" firstAttribute="top" secondItem="zZC-e6-77f" secondAttribute="bottom" constant="20" id="krD-fx-PvT"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="Nd0-el-Iro" secondAttribute="trailing" constant="20" id="l44-Ir-kHP"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="B8g-oe-we9" secondAttribute="bottom" constant="10" id="m7k-PC-b94"/>
+                <constraint firstItem="3Si-n1-TN4" firstAttribute="top" secondItem="1Ha-rR-cdz" secondAttribute="bottom" constant="20" id="nCx-iS-SIb"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="B8g-oe-we9" secondAttribute="trailing" constant="5" id="wHX-jg-xpk"/>
+                <constraint firstItem="zZC-e6-77f" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="ztb-KT-VTG"/>
+            </constraints>
+            <point key="canvasLocation" x="120" y="20"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="cap" width="2523" height="1947"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="tintColor">
+            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
